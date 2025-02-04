@@ -5,7 +5,7 @@ const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';  
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjg0NTBiMjNlYmRlMGQ1ZWExNjU1YTUxODk4YzE5Y2IiLCJ0IjoiOGVhNDYwZmItOTVmZC00MGU2LTg2MDUtMzMwMzFhZTcwZjg1IiwicyI6Ik1tRmlNRFptTm1VdFlqSmhOeTAwTURsbUxUbGtZV1l0WTJKallUaGpZVGxqTW1NMyJ9';
 
 
 app.get("/", function(req, res) {
